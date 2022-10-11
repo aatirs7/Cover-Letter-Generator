@@ -1,4 +1,4 @@
-﻿Copy-Item "C:\Users\aatir\OneDrive\Desktop\Cover Letters\cv test doc.docx" -Destination "C:\Users\aatir\OneDrive\Desktop\Cover Letters\cv test doc copy.docx"
+﻿Copy-Item "Enter Template Path" -Destination "Enter Destination Path"
 #$template = Read-Host "Please enter file path of CV Template"
 $Company = Read-Host "Please enter the company name"
 $title = Read-Host "Please enter the postition title"
@@ -9,7 +9,7 @@ $Word = New-Object -ComObject Word.Application
 
 
 # Open Word doc
-$OpenFile = $Word.Documents.Open("C:\Users\aatir\OneDrive\Desktop\Cover Letters\cv test doc copy.docx")
+$OpenFile = $Word.Documents.Open("Enter Template Path")
 #$template
 
 
@@ -36,7 +36,7 @@ $newText = $newText  -replace '\$description', $description
 $Content.Text = $newText
 $OpenFile.Save()
 $Word.Quit()
-$path = "C:\Users\aatir\OneDrive\Desktop\Cover Letters\cv test doc copy.docx"
+$path = "Enter Destination Path"
 
 
 
@@ -60,7 +60,7 @@ $wd.Quit()
 $cv = $companyName + " Cover Letter.pdf"
 
 Start-Sleep -Seconds .5
-Rename-Item "C:\Users\aatir\OneDrive\Desktop\Cover Letters\cv test doc copy.pdf" $cv 
-Remove-Item "C:\Users\aatir\OneDrive\Desktop\Cover Letters\cv test doc copy.docx"
+Rename-Item "Enter path" $cv 
+Remove-Item "Enter path"
 
 Write-Host "Process Complete"
