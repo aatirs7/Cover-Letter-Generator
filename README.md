@@ -1,10 +1,10 @@
 # Cover Letter Generator Powershell
 
-#Cover Letter Generator
+# Cover Letter Generator
 
 This script is designed to automate the process of creating a cover letter by allowing the user to input company name, job title, and their interest in the company, which then gets filled in a pre-defined template.
 
-#Usage
+# Usage
 
 * Create a template for the cover letter in Microsoft word, using placeholders for the company name, job title, and interest in the company.
 
@@ -22,8 +22,8 @@ This script is designed to automate the process of creating a cover letter by al
 
 * The script will also rename the generated pdf file with the company name and "Cover Letter.pdf"
 
-#Dependencies
-
+# Dependencies
+ 
 This script requires the following to be installed on the machine:
 
 * Microsoft Word
