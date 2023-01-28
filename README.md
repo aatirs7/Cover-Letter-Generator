@@ -5,7 +5,7 @@ This script is designed to automate the process of creating a cover letter by al
 
 **Usage**
 
-*Create a template for the cover letter in Microsoft word, using placeholders for the company name, job title, and interest in the company.
+* Create a template for the cover letter in Microsoft word, using placeholders for the company name, job title, and interest in the company.
 
 *Copy the script to a local folder on your computer
 
