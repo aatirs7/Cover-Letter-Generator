@@ -5,18 +5,26 @@ This script is designed to automate the process of creating a cover letter by al
 
 **Usage**
 *Create a template for the cover letter in Microsoft word, using placeholders for the company name, job title, and interest in the company.
+
 *Copy the script to a local folder on your computer
+
 *Open the script in PowerShell ISE or any other text editor
+
 *Update the "Enter Template Path" and "Enter Destination Path" with the actual path of the cover letter template and the destination path where the final cover letter should be saved.
+
 *Run the script in PowerShell
+
 *Follow the prompts to enter the company name, job title, and your interest in the company.
+
 *The script will generate a cover letter in a pdf format, with the entered details, in the destination path specified.
+
 *The script will also rename the generated pdf file with the company name and "Cover Letter.pdf"
 
 **Dependencies**
 This script requires the following to be installed on the machine:
 
 *Microsoft Word
+
 *PowerShell
 
 Note: The user must create their own cover letter template and use placeholders for the company name, job title, and interest in the company. The placeholders used in the template must match the variables used in the script (case-sensitive).
