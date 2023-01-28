@@ -22,6 +22,7 @@ This script is designed to automate the process of creating a cover letter by al
 * The script will also rename the generated pdf file with the company name and "Cover Letter.pdf"
 
 **Dependencies**
+
 This script requires the following to be installed on the machine:
 
 * Microsoft Word
